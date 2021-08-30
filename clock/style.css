@@ -1,5 +1,5 @@
 /* Google Webフォントを利用設定するCSSをインポート */
-@import url(http://fonts.googleapis.com/css?family=Klee+One);
+@import url(http://fonts.googleapis.com/css?family=Alegreya);
 
 /* body要素(全体) */
 body
@@ -28,7 +28,7 @@ span
     /* 横幅を親要素であるdivの85%にする */
     width: 100%;
     /* フォントの種類を一番上で指定したGoogle Webフォントに設定する */
-    font-family: 'Klee One', cursive;
+    font-family: 'Alegreya', cursive;
 }
 
 /* id="clock_date" のspan要素 */
