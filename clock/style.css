@@ -9,6 +9,7 @@ body
 div#clock_frame
 {
     width: 100%;
+    top: 60%;
     text-align: center;
 }
 
