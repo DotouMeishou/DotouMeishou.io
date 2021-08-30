@@ -9,7 +9,6 @@ body
 div#clock_frame
 {
     width: 100%;
-    top: 50%;
     text-align: center;
     
 }
@@ -18,6 +17,7 @@ span
 {
     display: block;
     float: right;
+    top: 50%;
     width: 100%;
     font-family: 'Newsreader', cursive;
 }
