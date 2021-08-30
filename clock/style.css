@@ -20,9 +20,9 @@ span
     float: right;
     position: absolute;
     top: 50%;
-    -webkit-transform : translateY(-50%);
-    transform : translateY(-50%);
-    width: 100%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
     font-family: 'Newsreader', cursive;
 }
 
