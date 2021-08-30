@@ -16,7 +16,6 @@ span
 {
     display: block;
     float: right;
-    position: absolute;
     margin: auto;
     font-family: 'Newsreader', cursive;
 }
