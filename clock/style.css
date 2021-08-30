@@ -40,6 +40,7 @@ span#clock_date
     font-size: 0.5em;
     /* 右のパディングの幅を親要素であるdivで設定されたフォントサイズ(px)の0.5倍にする */
     padding-right: 0.5em;
+    font-family: 'Alegreya', cursive;
 }
 
 /* id="clock_time" のspan要素 */
@@ -47,4 +48,5 @@ span#clock_time
 {
     /* フォントの大きさを親要素であるdivで設定されたサイズ(px)の2倍にする */
     font-size: 2em;
+    font-family: 'Alegreya', cursive;
 }
