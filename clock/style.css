@@ -10,13 +10,14 @@ div#clock_frame
 {
     width: 100%;
     text-align: center;
-    
+    position:relative;
 }
 
 span
 {
     display: block;
     float: right;
+    position: absolute;
     top: 50%;
     width: 100%;
     font-family: 'Newsreader', cursive;
