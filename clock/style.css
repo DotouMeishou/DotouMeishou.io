@@ -25,11 +25,9 @@ span#clock_date
     text-align: center;
     font-size: 0.5em;
     padding-right: 0.5em;
-    font-family: 'Alegreya', cursive;
 }
 
 span#clock_time
 {
     font-size: 2em;
-    font-family: 'Alegreya', cursive;
 }
