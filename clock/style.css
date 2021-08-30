@@ -30,4 +30,5 @@ span#clock_date
 span#clock_time
 {
     font-size: 2em;
+    margin: 20px;
 }
