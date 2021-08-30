@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya);
+@import url(http://fonts.googleapis.com/css?family=Newsreader);
 
 body
 {
@@ -17,7 +17,7 @@ span
     display: block;
     float: right;
     width: 100%;
-    font-family: 'Alegreya', cursive;
+    font-family: 'Newsreader', cursive;
 }
 
 span#clock_date
