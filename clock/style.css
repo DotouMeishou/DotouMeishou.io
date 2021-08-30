@@ -9,7 +9,9 @@ body
 div#clock_frame
 {
     width: 100%;
+    top: 50%;
     text-align: center;
+    
 }
 
 span
@@ -25,11 +27,9 @@ span#clock_date
     text-align: center;
     font-size: 0.5em;
     padding-right: 0.5em;
-    margin: 100px;
 }
 
 span#clock_time
 {
     font-size: 2em;
-    margin: 100px;
 }
