@@ -1,5 +1,5 @@
 /* Google Webフォントを利用設定するCSSをインポート */
-@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Klee+One);
 
 /* body要素(全体) */
 body
@@ -28,7 +28,7 @@ span
     /* 横幅を親要素であるdivの85%にする */
     width: 100%;
     /* フォントの種類を一番上で指定したGoogle Webフォントに設定する */
-    font-family: 'Roboto', cursive;
+    font-family: 'Klee One', cursive;
 }
 
 /* id="clock_date" のspan要素 */
