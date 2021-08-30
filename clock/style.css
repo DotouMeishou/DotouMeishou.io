@@ -8,7 +8,8 @@ body
 
 div#clock_frame
 {
-    position:relative;
+    width: 100%;
+    text-align: center;
 }
 
 span
