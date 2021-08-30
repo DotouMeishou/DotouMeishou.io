@@ -28,7 +28,7 @@ span
     /* 横幅を親要素であるdivの85%にする */
     width: 100%;
     /* フォントの種類を一番上で指定したGoogle Webフォントに設定する */
-    font-family: "Alegreya", cursive;
+    font-family: Alegreya, cursive;
 }
 
 /* id="clock_date" のspan要素 */
