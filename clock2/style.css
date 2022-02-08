@@ -16,6 +16,7 @@ div#clock_frame
 span
 {
     display: block;
+    align: center;
     float: center;
     width:  100%;
     font-family: 'Vast Shadow', cursive;
