@@ -4,13 +4,13 @@ body
 {
     color: Black;
     background-color: White;
-    align:center;
+    align: center;
 }
 
 div#clock_frame
 {
     width: 100%;
-    text-align: center;
+    align: center;
 }
 
 span
@@ -23,13 +23,13 @@ span
 
 span#clock_date
 {
-    text-align: center;
+    align: center;
     font-size: 1.0em;
     padding-right: 1.0em;
 }
 
 span#clock_time
 {
-    text-align: center;
+    align: center;
     font-size: 2em;
 }
