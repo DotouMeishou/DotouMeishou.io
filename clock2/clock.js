@@ -17,7 +17,7 @@ function clock()
 
     document.getElementById("clock_date").innerHTML =  y + "/" + mo + "/" + d + " (" + w + ")";
     document.getElementById("clock_time").innerHTML = h + ":" + mi;
-    document.getElementById("clock_frame").style.fontSize =  window.innerWidth / 10 + "px";
+    document.getElementById("clock_frame").style.fontSize =  window.innerWidth / 15 + "px";
 }
 
 setInterval(clock, 1000);
