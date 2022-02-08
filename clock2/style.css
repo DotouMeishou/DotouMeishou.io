@@ -15,14 +15,14 @@ div#clock_frame
 span
 {
     display: block;
-    float: right;
+    float: center;
     width:  100%;
     font-family: 'Vast Shadow', cursive;
 }
 
 span#clock_date
 {
-    text-align: right;
+    text-align: center;
     font-size: 0.5em;
     padding-right: 0.5em;
 }
