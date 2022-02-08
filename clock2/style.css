@@ -4,13 +4,13 @@ body
 {
     color: Black;
     background-color: White;
+    align:center;
 }
 
 div#clock_frame
 {
     width: 100%;
     text-align: center;
-    top-align: center;
 }
 
 span
