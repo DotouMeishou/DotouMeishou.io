@@ -1,0 +1,34 @@
+@import url(http://fonts.googleapis.com/css?family=Vast+Shadow);
+
+body
+{
+    color: Black;
+    background-color: White;
+}
+
+div#clock_frame
+{
+    width: 100%;
+    text-align: center;
+}
+
+span
+{
+    display: block;
+    float: right;
+    width:  100%;
+    font-family: 'Vast Shadow', cursive;
+}
+
+span#clock_date
+{
+    text-align: right;
+    font-size: 0.5em;
+    padding-right: 0.5em;
+}
+
+span#clock_time
+{
+    font-size: 2em;
+    margin: 8%;
+}
