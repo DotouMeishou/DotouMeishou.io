@@ -23,12 +23,13 @@ span
 span#clock_date
 {
     text-align: center;
-    font-size: 0.5em;
-    padding-right: 0.5em;
+    font-size: 1.0em;
+    padding-right: 1.0em;
 }
 
 span#clock_time
 {
+    text-align: center;
     font-size: 2em;
     margin: 8%;
 }
