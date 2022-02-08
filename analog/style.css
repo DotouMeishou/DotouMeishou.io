@@ -1,0 +1,154 @@
+/* フォント */
+@import url("https://fonts.googleapis.com/css?family=Heebo:300&display=swap");
+
+* {
+  /* ボックスの大きさを算出 */
+  box-sizing: border-box;
+}
+
+/* 変数を定義 */
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+}
+
+html {
+  transition: all 0.5s ease-in;
+}
+
+html.dark {
+  --primary-color: #fff;
+  --secondary-color: #333;
+  background-color: #111;
+  color: var(--primary-color);
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+  /* ページビューに対して高さ100% */
+  height: 100vh;
+  /* スクロールを非表示 */
+  overflow: hidden;
+  margin: 0;
+
+  /* flexアイテムにする */
+  display: flex;
+  /* flex重点の真ん中 */
+  align-items: center;
+  /* flex横軸の真ん中 */
+  justify-content: center;
+}
+
+.toggle {
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  /* 枠線なし */
+  border: 0;
+  /* 角を丸く */
+  border-radius: 4px;
+  /* 上下 | 左右 */
+  padding: 8px 12px;
+  /* 親要素(html)からの絶対位置 */
+  position: absolute;
+  top: 100px;
+}
+
+/* ボタンを押下した時 */
+.toggle:focus {
+  /* 青線を非表示 */
+  outline: none;
+}
+
+.clock-container {
+  display: flex;
+  /* flexアイテムを積み重ねるように配置 */
+  flex-direction: column;
+  /* 各アイテムを均等に配置し
+     最初のアイテムは先頭に寄せ、
+     最後のアイテムは末尾に寄せる */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clock {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.needle {
+  background-color: var(--primary-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 65px;
+  width: 3px;
+  /* 要素の変形transformにおける原点を設定 */
+  transform-origin: bottom center;
+  transition: all 0.5s ease-in;
+}
+
+.needle.hour {
+  transform: translate(-50%, -100%) rotate(0deg);
+}
+
+.needle.minute {
+  transform: translate(-50%, -100%) rotate(0deg);
+  height: 100px;
+}
+
+.needle.second {
+  transform: translate(-50%, -100%) rotate(0deg);
+  height: 100px;
+  background-color: #e74c3c;
+}
+
+.center-point {
+  background-color: #e74c3c;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+/* 疑似クラス */
+.center-point::after {
+  content: "";
+  background-color: var(--primary-color);
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.time {
+  font-size: 60px;
+}
+
+.date {
+  color: #aaa;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.date .circle {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 18px;
+  transition: all 0.5s ease-in;
+  font-size: 12px;
+}
